@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+
+ @media(min-width:767px) {
+
+
+     .navbar {
+         padding: 20px 0;
+         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+         transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+     }
+
+     .top-nav-collapse {
+         padding: 0;
+     }
+ }
+
+
+ /* Map */
+
+ .map {
+     height: 500px;
+ }
+
+ @media(max-width:768px) {
+     .map {
+         height: 75%;
+     }
+ }
+
+ /* Footer */
+
+ footer {
+     padding: 100px 0;
+ }
