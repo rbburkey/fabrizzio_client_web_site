@@ -31,6 +31,46 @@
      }
  }
 
+ .callout {
+   color: #ffffff;
+   padding-top:7%;
+   height: 100%;
+   width: 100%;
+   background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
 
  /* Map */
 
@@ -48,4 +88,25 @@
 
  footer {
      padding: 100px 0;
+ }
+
+
+ .team-member {
+   text-align: center;
+   margin-bottom: 50px;
+ }
+ .team-member img {
+   margin: 0 auto;
+   border: 7px solid white;
+ }
+ .team-member h4 {
+   margin-top: 25px;
+   margin-bottom: 0;
+   text-transform: none;
+ }
+ .team-member p {
+   margin-top: 0;
+ }
+ aside.clients img {
+   margin: 50px auto;
  }
