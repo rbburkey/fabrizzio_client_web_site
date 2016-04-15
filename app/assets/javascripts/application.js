@@ -38,3 +38,14 @@ $(document).ready(function(){
         $scroll.css({ backgroundPosition: coords });
       }); // end window scroll
    });  // end section function
+
+
+   new WOW().init();
+
+   $('a.page-scroll').bind('click', function(event) {
+       var $ele = $(this);
+       $('html, body').stop().animate({
+           scrollTop: ($($ele.attr('href')).offset().top - 60)
+       }, 1450, 'easeInOutExpo');
+       event.preventDefault();
+   });
