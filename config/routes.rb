@@ -3,6 +3,16 @@ Rails.application.routes.draw do
   get '/' => 'static#home'
   get '/information' => 'static#information'
   get '/rooms' => 'static#rooms'
+  get '/room1' => 'static#room1'
+  get '/room2' => 'static#room2'
+  get '/room3' => 'static#room3'
+  get '/room4' => 'static#room4'
+  get '/room5' => 'static#room5'
+  get '/room6' => 'static#room6'
+  get '/room7' => 'static#room7'
+  get '/room8' => 'static#room8'
+  get '/thehostel' => 'static#thehostel'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

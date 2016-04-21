@@ -18,6 +18,16 @@
  	border-top: 3px double #8c8b8b;
  }
 
+#main_area {
+margin-top: 200px;
+}
+
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+
 #how_to_get_here {
   padding-bottom: 30px;
 }
