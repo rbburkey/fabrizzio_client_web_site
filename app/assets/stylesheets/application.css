@@ -14,6 +14,17 @@
  *= require_self
  */
 
+.fa-arrow-right {
+  position: absolute;
+  top: 50%;
+}
+
+
+.fa-arrow-left {
+  position: absolute;
+  top: 50%;
+}
+
  hr.style2 {
  	border-top: 3px double #8c8b8b;
  }
