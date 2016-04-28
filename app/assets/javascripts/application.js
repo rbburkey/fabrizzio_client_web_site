@@ -13,13 +13,14 @@
 //= require bootstrap
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+
 //= require_tree .
 
 
 
 document.createElement("section");
 $(document).ready(function(){
+
    // cache the window object
    $window = $(window);
 
