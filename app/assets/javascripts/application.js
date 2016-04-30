@@ -13,7 +13,8 @@
 //= require bootstrap
 //= require jquery
 //= require jquery_ujs
-
+//= require creative
+//= require scrolling-nav
 //= require_tree .
 
 
