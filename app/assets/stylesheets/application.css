@@ -11,8 +11,6 @@
  * file per style scope.
  *
  *= require bootstrap
- *= require creative
- *= require animate.min
  *= require_tree .
  *= require_self
  */
