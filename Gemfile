@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :production do
 gem 'rails_12factor'
-gem 'therubyracer'
+
 end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
