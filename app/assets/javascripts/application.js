@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.easing.min.js
 //= require bootstrap.js
 //= require carousel.js
 //= require creative.js
@@ -19,7 +20,7 @@
 //= require_tree .
 
 
-// 
+//
 // document.createElement("section");
 // $(document).ready(function(){
 //
