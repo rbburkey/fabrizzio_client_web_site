@@ -11,6 +11,9 @@
  * file per style scope.
  *
  *= require bootstrap
+ *= require creative.css
+ *= require scrolling-nav.css
+ *= require animate.min.css
  *= require_tree .
  *= require_self
  */
@@ -53,13 +56,26 @@ margin-top: 25px;
 border-width: 7px;
  }
 
-.img-rounded {
+ #meetstaff_pic {
+   height: 200px;
+   border-radius: 16px 16px;
+   border-color: #fff;
+   border-style: solid;
+   box-shadow: 2px 2px 10px #B1B1B1;
+   margin-top: 25px;
+   border-width: 7px;
+
+ }
+
+.img-responsive {
+  height: 200px;
   border-radius: 16px 16px;
   border-color: #fff;
   border-style: solid;
   box-shadow: 1px 1px 8px black;
   border-width: 0px;
 }
+
  @media(min-width:767px) {
 
 
@@ -76,17 +92,17 @@ border-width: 7px;
      }
  }
 
- .callout {
+  {
    color: black;
    font-weight: 900;
    padding-top:2%;
    padding-bottom: 2%;
    height: 100%;
    width: 100%;
-   background: url("background_family.jpg") no-repeat center center fixed;
-   -webkit-background-size: cover;
+   background: url("background_family.jpg") ;
+   /*-webkit-background-size: cover;
    -moz-background-size: cover;
-   -o-background-size: cover;
+   -o-background-size: cover;*/
    background-size: cover;
  }
 

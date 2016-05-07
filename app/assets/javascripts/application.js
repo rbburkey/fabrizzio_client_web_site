@@ -12,7 +12,6 @@
 //
 
 //= require jquery
-//= require jquery_ujs
 //= require_self
 //= require jquery.easing.min.js
 //= require bootstrap.js
