@@ -11,12 +11,12 @@
 // about supported directives.
 //
 
+//= require bootstrap
 //= require jquery
-//= require_self
-//= require jquery.easing.min.js
-//= require bootstrap.js
+//= require jquery_ujs
 //= require carousel.js
 //= require creative.js
+//= require jquery.easing.min.js
 //= require scrolling-nav.js
 //= require_tree .
 
